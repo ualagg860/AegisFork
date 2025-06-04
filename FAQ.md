@@ -58,14 +58,4 @@ storage of your device and then have a separate app (like
 
 ## Importing
 
-### When importing from Authenticator Plus, an error is shown claiming that Accounts.txt is missing
 
-Make sure you supply an Authenticator Plus export file obtained through
-__Settings -> Backup & Restore -> Export as Text and HTML__. The ``.db`` format
-is not supported.
-
-If it still doesn't work, please report the issue to us. As a temporary
-workaround, you can try extracting the ZIP archive on a computer, recreating it
-without a password and then importing that into Aegis. Another option is
-extracting the ZIP archive on a computer and importing the resulting
-Accounts.txt file into Aegis with the "Plain text" import option.
